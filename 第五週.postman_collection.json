@@ -14,7 +14,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{url}}/users"
+						"url": "https://rocky-wave-55647.herokuapp.com/users"
 					},
 					"response": []
 				},
@@ -32,7 +32,7 @@
 								}
 							}
 						},
-						"url": "{{url}}/users"
+						"url": "https://rocky-wave-55647.herokuapp.com/users"
 					},
 					"response": []
 				},
@@ -45,7 +45,7 @@
 							"mode": "raw",
 							"raw": ""
 						},
-						"url": "{{url}}/users"
+						"url": "https://rocky-wave-55647.herokuapp.com/users"
 					},
 					"response": []
 				}
@@ -59,7 +59,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{url}}/posts"
+						"url": "https://rocky-wave-55647.herokuapp.com/posts"
 					},
 					"response": []
 				},
@@ -77,7 +77,7 @@
 								}
 							}
 						},
-						"url": "{{url}}/posts/create"
+						"url": "https://rocky-wave-55647.herokuapp.com/posts/create"
 					},
 					"response": []
 				},
@@ -86,7 +86,7 @@
 					"request": {
 						"method": "DELETE",
 						"header": [],
-						"url": "{{url}}/posts"
+						"url": "https://rocky-wave-55647.herokuapp.com/posts"
 					},
 					"response": []
 				},
@@ -95,7 +95,7 @@
 					"request": {
 						"method": "DELETE",
 						"header": [],
-						"url": "{{url}}/posts/629245e835ea5bde60036cf1"
+						"url": "https://rocky-wave-55647.herokuapp.com/posts/629245e835ea5bde60036cf1"
 					},
 					"response": []
 				},
@@ -113,7 +113,7 @@
 								}
 							}
 						},
-						"url": "{{url}}/posts/629245f335ea5bde60036cf5"
+						"url": "https://rocky-wave-55647.herokuapp.com/posts/629245f335ea5bde60036cf5"
 					},
 					"response": []
 				}
