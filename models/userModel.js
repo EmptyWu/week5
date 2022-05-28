@@ -8,7 +8,8 @@ const userSchema = new mongoose.Schema({
   email: {
     type: String,
     required: [true, 'email未填寫'],
-    select: false
+    unique: true,
+    select: true
   },
   // password -前端不顯示
   password: {

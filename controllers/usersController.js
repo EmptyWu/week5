@@ -41,7 +41,7 @@ const users = {
     async delete(req, res) {
         await User.deleteMany({});
         const users = await User.find();
-        successHandle(res,user);   
+        successHandle(res,users);   
         
     },
     // 刪除 -單筆
@@ -53,7 +53,7 @@ const users = {
         if(result==null){
           return next(appError(400, `無此筆id`, next));
         }else{
-          successHandle(res,user);   
+          successHandle(res,users);   
          
         }
         
@@ -90,7 +90,7 @@ const users = {
         const users = await User.findByIdAndUpdate(id, data, { new: true});
         if(users == null) next(appError(400, `${res} 欄位不正確`, next));
         else { 
-          successHandle(res,user);   
+          successHandle(res,users);   
       }
     },
 }

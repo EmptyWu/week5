@@ -32,7 +32,7 @@ app.use((req, res, next) => {
 
 // 程式錯誤處裡
 
-// production 回應模式
+// production 回應模式：正式環境
 const resErrorProd = (err, res) => {
   if(err.isOperational) { // 是預期
     res.status(err.statusCode).json({
@@ -48,7 +48,7 @@ const resErrorProd = (err, res) => {
   }
 }
 
-// dev 回應模式
+// dev 回應模式：開發環境
 const resErrorDev = (err, res) => {
   res.status(err.statusCode).json({
     message: err.message,
